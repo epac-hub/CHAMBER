@@ -6,7 +6,7 @@ Tablero de diagnóstico y plan de trabajo 30/60/90 del Comité de Socios de la C
 
 ## Sobre la clave de acceso
 
-El contenido está cifrado con AES-GCM de 256 bits y la llave se deriva de la clave con PBKDF2-SHA256 (250,000 iteraciones). El texto del documento no existe en claro dentro del archivo: sin la clave no hay nada que leer, ni en el código fuente.
+El contenido está cifrado con AES-GCM de 256 bits y la llave se deriva de la clave con PBKDF2-SHA256 (150,000 iteraciones). El texto del documento no existe en claro dentro del archivo: sin la clave no hay nada que leer, ni en el código fuente.
 
 Aun así, es un archivo estático. Cualquiera que tenga la clave puede compartirla, y una clave corta o predecible es vulnerable a un ataque de fuerza bruta por alguien decidido. Para información que no debe salir del comité, la protección real es el repositorio privado.
 
